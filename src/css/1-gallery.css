@@ -1,0 +1,18 @@
+.gallery {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+  justify-content: center;
+  list-style: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  overflow: hidden;
+  width: 360px;
+}
