@@ -27,6 +27,8 @@ function handlerSubmit(event) {
     alert('Fill please all fields');
   } else {
     console.log(formData);
+    formData.email = '';
+    formData.message = '';
     localStorage.removeItem(localStorageKey);
     form.reset();
   }
